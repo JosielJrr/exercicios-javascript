@@ -1,3 +1,4 @@
+//MÉTODOS DO DOM:
 //Formas de acessar o DOM:
 
 // // 1-Selecionando o elemento pela tag HTML:
@@ -66,6 +67,19 @@
 // span.appendChild(conteudo);
 // container.appendChild(span);
 
+
+// // //Quando queremos adicionar uma lista ao HTML com várias informações, é muito simples utilizar o innerHTML do que usar createElement e createTextNode para criar cada item individualmente.
+
+// // const container = document.querySelector('#container');
+
+// // // Adiciona a lista diretamente usando innerHTML
+// // container.innerHTML +=
+// //     `<ul>
+// //     <li>Item 1</li>
+// //     <li>Item 2</li>
+// //     <li>Item 3</li>
+// //     </ul>`;
+
 // ----------------------------------------------------------------------------------------------------------------------
 
 //Remover elementos com DOM:
@@ -130,6 +144,9 @@
 // const botao = document.querySelector('#btn');
 // botao.setAttribute('disabled', 'disabled');
 
+// //Método excluisvo para a adição de classes:
+// botao.classList.add('button');
+
 // // // remover atributo
 // // botao.removeAttribute('disabled');
 
@@ -149,3 +166,23 @@
 // subtitulo.style.cssText = 'color: blue; background-color: pink; font-size: 50px';
 
 // ----------------------------------------------------------------------------------------------------------------------
+
+// PROPRIEDADES DO DOM:
+// // Acessando e alterando partes do DOM através de suas prorpriedades:
+
+// console.log(document.head);
+
+// console.log(document.body);
+
+// console.log(document.title);
+// document.title = 'Novo Título';
+// console.log(document.title);
+
+// console.log(document.URL);
+
+// console.log(document.links);
+// document.links[0].textContent = 'YouTube';
+// console.log(document.links[0]);
+
+// ----------------------------------------------------------------------------------------------------------------------
+
