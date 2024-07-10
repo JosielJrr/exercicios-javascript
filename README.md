@@ -1,7 +1,7 @@
 # Exercícios JavaScript :books: :memo: :brain:
 
 - Os conteúdos deste repositório abortam diversos conceitos e funcionalidades da linguagem JavaScript. 
-- Cada arquivo contém uma lista de resoluções de exercícios referentes ao tema especificado no próprio arquivo.
+- Cada arquivo contém uma lista de conteúdos e resoluções de exercícios referentes ao tema especificado no próprio arquivo.
 
 ## Como Utilizar
 - Clone o repositório para sua máquina local.
