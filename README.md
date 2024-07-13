@@ -5,8 +5,9 @@
 
 ## Como Utilizar
 - Clone o repositório para sua máquina local.
-  ```bash
-  git clone https://github.com/JosielJrr/exercicios-javascript.git 
+  ```
+  git clone https://github.com/JosielJrr/exercicios-javascript.git
+  ```
 - Execute cada arquivo JavaScript em um ambiente que suporte Node.js.
 
 ## Notas Adicionais
