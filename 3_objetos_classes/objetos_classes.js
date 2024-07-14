@@ -76,9 +76,6 @@
 // COMPARANDO IDADES COM FUNÇÕES RECEBENDO OBJETOS:
 
 // class Pessoa {
-//     nome;
-//     idade;
-
 //     constructor(nome, idade) {
 //         this.nome = nome;
 //         this.idade = idade;
@@ -107,9 +104,6 @@
 // CRIAÇÃO DE CLASSE E MÉTODO:
 
 // class Carro {
-//     marca;
-//     modelo;
-//     ano;
 
 //     constructor(marca, modelo, ano) {
 //         this.marca = marca;
@@ -128,12 +122,118 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
+// MÉTODOS SET E GET:
+
+// class Pessoa {
+
+//     constructor(nome, idade) {
+//         this._nome = nome;
+//         this._idade = idade;
+//     }
+
+//     // Método get para acessar valor da propriedade nome:
+//     get nome() {
+//         return this._nome;
+//     }
+
+//     // Método set para validar e definir novos valores para propriedade nome:
+//     set nome(novoNome) {
+//         if (typeof novoNome === 'string' && novoNome.length > 0) {
+//             this._nome = novoNome;
+//         } else {
+//             console.error('Nome inválido');
+//         }
+//     }
+
+//     // Método get para acessar valor da propriedade idade:
+//     get idade() {
+//         return this._idade;
+//     }
+
+//     // Método set para validar e definir novos valores para propriedade idade:
+//     set idade(novaIdade) {
+//         if (typeof novaIdade === 'number' && novaIdade > 0) {
+//             this._idade = novaIdade;
+//         } else {
+//             console.error('Idade inválida');
+//         }
+//     }
+// }
+
+// const pessoa = new Pessoa('Alice', 25);
+
+// console.log(pessoa.nome); // Alice
+// console.log(pessoa.idade); // 25
+
+// pessoa.nome = 'Bob';
+// pessoa.idade = 30;
+
+// console.log(pessoa.nome); // Bob
+// console.log(pessoa.idade); // 30
+
+// pessoa.nome = ''; // Nome inválido
+// pessoa.idade = -5; // Idade inválida
+
+// ----------------------------------------------------------------------------------------------------------------------
+
+// PROPRIEDADES E MÉTODOS STATIC:
+
+// class Calculadora {
+//     // Propriedade estática
+//     static PI = 3.14159;
+
+//     // Método estático
+//     static soma(a, b) {
+//         return a + b;
+//     }
+
+//     // Método estático
+//     static areaDoCirculo(raio) {
+//         return this.PI * raio * raio;
+//     }
+// }
+
+// // Acessando a propriedade estática
+// console.log(Calculadora.PI); // 3.14159
+
+// // Chamando métodos estáticos
+// console.log(Calculadora.soma(5, 7)); // 12
+// console.log(Calculadora.areaDoCirculo(10)); // 314.159
+
+// ----------------------------------------------------------------------------------------------------------------------
+
+// HERDANDO CLASSES COM EXTENDS:
+
+// class SuperClasse {
+
+//     constructor(nome) {
+//         this.nome = nome;
+//     }
+
+//     saudacao() {
+//         return `Olá, meu nome é ${this.nome}`;
+//     }
+// }
+
+// class SubClasse extends SuperClasse {
+//     constructor(nome, idade) {
+//         super(nome); // Chama o construtor da superclasse
+//         this.idade = idade;
+//     }
+
+//     saudacao() {
+//         return `${super.saudacao()} e eu tenho ${this.idade} anos`;
+//     }
+// }
+
+// const pessoa = new SubClasse('Alice', 30);
+// console.log(pessoa.saudacao()); // Olá, meu nome é Alice e eu tenho 30 anos
+
+// ----------------------------------------------------------------------------------------------------------------------
+
 // CALCULAR VALOR DE UM PERCURSO:
 
 // class Carro {
-//     marca;
-//     cor;
-//     gastoPorKm;
 
 //     constructor(marca, cor, gastoPorKm) {
 //         this.marca = marca;
@@ -158,9 +258,6 @@
 //  CALCULAR IMC:
 
 // class Pessoa {
-//     nome;
-//     peso;
-//     altura;
 
 //     constructor(nome, peso, altura) {
 //         this.nome = nome;
@@ -198,8 +295,6 @@
 // CALCULAR A ÁREA DE UM RETÂNGULO:
 
 // class Rectangle {
-//     width;
-//     height;
 
 //     constructor(width, height) {
 //         this.width = width;
@@ -220,9 +315,6 @@
 // DESCRIÇÃO DE UM CARRO:
 
 // class Car {
-//     make;
-//     model;
-//     year;
 
 //     constructor(make, model, year) {
 //         this.make = make;
@@ -246,7 +338,6 @@
 // CIRCUNFERÊNCIA DE UM CÍRCULO:
 
 // class Circle {
-//     radius;
 
 //     constructor(radius) {
 //         this.radius = radius;
@@ -265,8 +356,6 @@
 // APROVAÇÃO ALUNOS:
 
 // class Student {
-//     name;
-//     grade;
 
 //     constructor(name, grade) {
 //         this.name = name;
@@ -286,9 +375,6 @@
 // CONTA BANCÁRIA:
 
 // class BankAccount {
-//     accountNumber;
-//     accountHolder;
-//     balance;
 
 //     constructor(accountNumber, accountHolder, balance) {
 //         this.accountNumber = accountNumber;
@@ -320,8 +406,6 @@
 // CALCULAR ÁREA E PERÍMETRO DE UM RETÊNGULO:
 
 // class Retangulo {
-//     base;
-//     altura;
 
 //     constructor(base, altura) {
 //         this.base = base;
@@ -333,7 +417,7 @@
 //     }
 
 //     calcularPerimetro() {
-//         return 2 * (this.base + this.altura); 
+//         return 2 * (this.base + this.altura);
 //     }
 // }
 
@@ -346,8 +430,6 @@
 // CALCULAR ÁREA:
 
 // class Parede {
-//     altura;
-//     largura;
 
 //     constructor(altura, largura) {
 //         this.altura = altura;
@@ -370,8 +452,6 @@
 // AUMENTO DE SALÁRIO:
 
 // class Funcionario {
-//     nome;
-//     salario;
 
 //     constructor(nome, salario) {
 //         this.nome = nome;
