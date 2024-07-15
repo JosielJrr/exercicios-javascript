@@ -176,19 +176,37 @@
 
 // produtos.forEach(produto => console.log(`Nome: ${produto.nome}, Preço: ${produto.preco}`));
 
-// // nova lista contendo apenas os produtos com preço maior que 50.
-// const produtosCaros = produtos.filter(produto => produto.preco > 50 );
-// console.log(produtosCaros);
+// // nova lista em tabela contendo apenas os produtos com preço maior que 50.
+// const produtosCaros = produtos.filter(produto => produto.preco > 50);
+// console.table(produtosCaros);
 
 // //  nova lista contendo apenas os nomes dos produtos.
 // produtos.map(produto => console.log(produto.nome));
 
 // // calcular o preço total de todos os produtos.
-// const somaPrecos = produtos.reduce((previus, current) => previus + current.preco,0);
+// const somaPrecos = produtos.reduce((previus, current) => previus + current.preco, 0);
 // console.log(somaPrecos);
 
 // // string com todos os nomes dos produtos separados por uma barra vertical (|).
 // const nomesString = produtos.map(produto => produto.nome).join(' | ');
-// console.log(nomesString); 
+// console.log(nomesString);
+
+// // NOVOS MÉTODOS DE MANIPULAÇÃO DE LISTAS:
+
+// // Encontra o produto com o nome 'Produto A' na lista de produtos
+// const produtoA = produtos.find(produto => produto.nome === 'Produto A');
+// console.log(produtoA);
+
+// // Encontra o índice do produto com o nome 'Produto B' na lista de produtos
+// const produtoBIndex = produtos.findIndex(produto => produto.nome === 'Produto B');
+// console.log(produtoBIndex);
+
+// // Verifica se existe algum produto com preço superior a 50 e retorna um valor booleano
+// const acimaDe50 = produtos.some(produto => produto.preco > 50);
+// console.log(acimaDe50);
+
+// // Verifica se todos os produtos têm um preço superior a 60 e retorna um valor booleano
+// const acimaDe60 = produtos.every(produto => produto.preco > 60);
+// console.log(acimaDe60);
 
 // ----------------------------------------------------------------------------------------------------------------------
