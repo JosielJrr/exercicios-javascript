@@ -9,7 +9,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// First-Class Functions - Atribuindo uma função a uma variável:
+// FIRST-CLASS FUNCTIONS - ATRIBUINDO UMA FUNÇÃO A UMA VARIÁVEL:
 
 // function saudacao() {
 //     return 'Olá!';
@@ -20,7 +20,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Higher-Order Functions - Funções que recebem outras funções como argumentos:
+// HIGHER-ORDER FUNCTIONS - FUNÇÕES QUE RECEBEM OUTRAS FUNÇÕES COMO ARGUMENTOS:
 
 // function executa(func) {
 //     return func();
@@ -34,7 +34,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Closures ou Fechamentos:
+// CLOSURES OU FECHAMENTOS:
 
 // function funcaoExterna() {
 //     let variavelExterna = 'Eu sou uma variável externa';
@@ -55,7 +55,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Métodos call e apply para invocar funções:
+// MÉTODOS CALL E APPLY PARA INVOCAR FUNÇÕES:
 
 // let pessoa = {
 //     nome: 'João',
@@ -76,7 +76,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Calculadora Aritmética:
+// CALCULADORA ARITMÉTICA:
 
 // function soma(x, y) {
 //     return x + y;

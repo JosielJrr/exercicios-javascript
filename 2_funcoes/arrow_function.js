@@ -1,9 +1,9 @@
-// // Arrow function que retorna o dobro de um número
+// // ARROW FUNCTION QUE RETORNA O DOBRO DE UM NÚMERO:
+
 // const dobrar = (num) => {
 //     return num * 2;
 // };
 
-// // Exemplo de uso
 // console.log(dobrar(5));
 
 // OU
@@ -11,28 +11,19 @@
 // // Exemplo de arrow function com uma única linha de código
 // const dobrar = num => num * 2;
 
-// // Exemplo de uso
-// console.log(dobrar(5)); 
+// console.log(dobrar(5));
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Arrow function para SOMA:
+// ARROW FUNCTION PARA SOMA:
 
 // const soma = (a, b) => a + b;
 
-// console.log(soma(3, 4)); 
+// console.log(soma(3, 4));
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Desafio de Soma Simples:
-
-// const somaSimples = ((num1, num2) => num1 + num2)
-
-// console.log(somaSimples(10,10))
-
-// ----------------------------------------------------------------------------------------------------------------------
-
-// Desafio de Verificação Par ou Ímpar:
+// DESAFIO DE VERIFICAÇÃO PAR OU ÍMPAR:
 
 // const numParOuImpar = ((num) => {
 //     if (num % 2 ===0) {
@@ -46,7 +37,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Desafio de Calculadora Básica:
+// DESAFIO DE CALCULADORA BÁSICA:
 
 // const calcularAritmetica = ((num1, operador, num2) => {
 //     let resultado = null;
@@ -93,8 +84,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Função para ordenar números em ordem crescente usando arrow function e sort():
-
+// FUNÇÃO PARA ORDENAR NÚMEROS EM ORDEM CRESCENTE USANDO ARROW FUNCTION E SORT():
 
 // const ordenarNumerosCrescente = (numeros) => {
 //     // Utiliza o método sort() no array de números
@@ -119,7 +109,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Desafio de Função de Maioridade:
+// DESAFIO DA MAIORIDADE:
 
 // const verificarMaiorIdade = ((idade) => idade >= 18);
 

@@ -17,7 +17,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Classificar a média de um aluno: 
+// CLASSIFICAR A MÉDIA DE UM ALUNO:
 
 // const { gets, print } = require('./funcoes_auxiliares');
 
@@ -33,7 +33,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Maior par e maior ímpar:
+// MAIOR PAR E MAIOR ÍMPAR:
 
 // const { gets, print } = require('./funcoes_auxiliares');
 
@@ -60,7 +60,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Salário a transferir: 
+// SALÁRIO A TRANSFERIR:
 
 // const { gets, print } = require('./funcoes_auxiliares');
 
@@ -87,7 +87,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Multa por alta velocidade: 
+// MULTA POR ALTA VELOCIDADE:
 
 // const { gets, print } = require('./funcoes_auxiliares');
 
@@ -106,7 +106,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Pode votar ?
+// PODE VOTAR?
 
 // const { gets, print } = require('./funcoes_auxiliares');
 

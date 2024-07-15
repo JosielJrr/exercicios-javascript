@@ -1,4 +1,5 @@
-// // Definindo uma função construtora
+// // DEFININDO UMA FUNÇÃO CONSTRUTORA:
+
 // function Carro(marca, modelo, ano) {
 //     this.marca = marca;
 //     this.modelo = modelo;
@@ -35,7 +36,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Criar e Extender Prototipo de Pessoa:
+// CRIAR E ESTENDER PROTÓTIPO DE PESSOA:
 
 // function Pessoa(nome, idade) {
 //     this.nome = nome;

@@ -10,7 +10,8 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// // Definindo um objeto protótipo
+// // DEFININDO UM OBJETO PROTÓTIPO:
+
 // const pessoaPrototype = {
 //     saudacao() {
 //         return `Olá, ${this.nome}!`;
@@ -23,7 +24,6 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// // Definindo um objeto protótipo
 // let animalPrototype = {
 //     tipo: 'Desconhecido',
 //     fazerSom: function () {
@@ -41,7 +41,8 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// // Definindo um protótipo base
+// // DEFININDO UM PROTÓTIPO BASE:
+
 // let animalPrototype = {
 //     tipo: 'Desconhecido',
 //     fazerSom: function () {
@@ -67,7 +68,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Criando um Objeto com Protótipo em uma função construtora:
+// CRIANDO UM OBJETO COM PROTÓTIPO EM UMA FUNÇÃO CONSTRUTORA:
 
 // function Animal(nome, tipo) {
 //     this.nome = nome;
@@ -84,7 +85,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Criar e Extender Prototipo de Pessoa:
+// CRIAR E ESTENDER PROTÓTIPO DE PESSOA:
 
 // const Pessoa = {
 //     nome: '',
@@ -115,7 +116,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Criando e Herdando Prototipos de Veículos:
+// CRIANDO E HERDANDO PROTÓTIPOS DE VEÍCULOS:
 
 // const Veiculo = {
 //     marca: '',
@@ -149,7 +150,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Extensão de Protótipo com Métodos Adicionais:
+// EXTENSÃO DE PROTÓTIPO COM MÉTODOS ADICIONAIS:
 
 // const ContaBancaria = {
 //     titular: '',
@@ -194,7 +195,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-//  Criando Protótipo para Biblioteca de Livros:
+//  CRIANDO PROTÓTIPO PARA BIBLIOTECA DE LIVROS:
 
 // const Livro = {
 //     titulo: '',
@@ -226,7 +227,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-//  Criar uma Hierarquia de Animais:
+//  CRIAR UMA HIERARQUIA DE ANIMAIS:
 
 // const animal = {
 //     nome: 'Morcego',
@@ -249,7 +250,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-//  Criar uma Hierarquia de Animais:
+//  CRIAR UMA HIERARQUIA DE ANIMAIS:
 
 // const Animal = {
 //     nome: '',
@@ -277,7 +278,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Extender Prototipo de ContaBancaria:
+// ESTENDER PROTÓTIPO DE CONTA BANCÁRIA:
 
 // const ContaBancaria = {
 //     titular: '',

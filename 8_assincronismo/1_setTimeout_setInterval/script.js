@@ -1,5 +1,5 @@
 
-// SetTimeOut:
+// SETTIMEOUT:
 
 // console.log('Antes do setTimeOut');
 
@@ -26,7 +26,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// SetInterval:
+// SETINTERVAL:
 
 // // Executa repetidamente uma função em intervalos fixos:
 // const myInterval = setInterval(() => console.log('Testando setInterval'), 1000);

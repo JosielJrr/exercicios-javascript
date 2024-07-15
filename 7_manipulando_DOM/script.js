@@ -1,5 +1,6 @@
 //MÉTODOS DO DOM:
-//Formas de acessar o DOM:
+
+//FORMAS DE ACESSAR O DOM:
 
 // // 1-Selecionando o elemento pela tag HTML:
 // let titulo = document.getElementsByTagName('h1')[0];
@@ -25,7 +26,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Alterar conteúdo do elemento com DOM:
+// ALTERAR CONTEÚDO DO ELEMENTO COM DOM:
 
 // //textContent: Altera apenas o conteúdo textual do elemento.
 // let titulo = document.querySelector('#title');
@@ -44,7 +45,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Criar elementos com DOM:
+// CRIAR ELEMENTOS COM DOM:
 
 // // Cria um novo elemento <p>:
 // let novoParagrafo = document.createElement('p');
@@ -82,7 +83,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-//Remover elementos com DOM:
+//REMOVER ELEMENTOS COM DOM:
 
 // // Removendo elemento filho:
 // const container = document.querySelector('#container');
@@ -95,7 +96,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Inserir elementos com DOM:
+// INSERIR ELEMENTOS COM DOM:
 
 // // Cria um elemento <div> e define seu texto interno
 // const div = document.createElement('div');
@@ -114,7 +115,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Trocar elementos com DOM - replaceChild:
+// TROCAR ELEMENTOS COM DOM - REPLACECHILD:
 
 // // Seleciona o elemento com a classe 'subtitle'
 // const subtitulo = document.querySelector('.subtitle');
@@ -136,7 +137,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Adicionar e remover atributo do elemento com o DOM:
+// ADICIONAR E REMOVER ATRIBUTO DO ELEMENTO COM O DOM:
 
 // const titulo = document.querySelector('#title');
 // titulo.setAttribute('class', 'test');
@@ -152,7 +153,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Adicionar CSS pelo DOM:
+// ADICIONAR CSS PELO DOM:
 
 // // Seleciona o elemento com o ID 'title' e altera a cor do texto para azul
 // const titulo = document.querySelector('#title');
@@ -168,6 +169,7 @@
 // ----------------------------------------------------------------------------------------------------------------------
 
 // PROPRIEDADES DO DOM:
+
 // // Acessando e alterando partes do DOM através de suas prorpriedades:
 
 // console.log(document.head);
@@ -188,7 +190,7 @@
 
 // IMPLEMENTANDO EVENTOS:
 
-// Evento Onload:
+// EVENTO ONLOAD:
 
 // window.onload = function () {
 //     console.log('Carregou o DOM');
@@ -196,7 +198,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Evento de click:
+// EVENTO DE CLICK:
 
 // const botao = document.querySelector('#btn');
 
@@ -222,7 +224,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Eventos mouseover e mouseout:
+// EVENTOS MOUSEOVER E MOUSEOUT:
 
 // // Seleciona o elemento HTML com o id 'title'
 // const title = document.querySelector('#title');
@@ -248,7 +250,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Eventos keydown e keyup:
+// EVENTOS KEYDOWN E KEYUP:
 
 // // Adiciona um evento 'keydown' ao documento
 // document.addEventListener('keydown', (e) => {

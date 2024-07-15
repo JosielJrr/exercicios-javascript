@@ -1,4 +1,4 @@
-// // Exemplo de uso do switch para avaliar o dia da semana
+// // EXEMPLO DE USO DO SWITCH PARA AVALIAR O DIA DA SEMANA:
 
 // // Variável que representa o dia da semana (número de 0 a 6, onde 0 é domingo)
 // let diaSemana = 1;
@@ -7,7 +7,7 @@
 // switch (diaSemana) {
 //     case 0:
 //         console.log("Domingo");
-//         break; 
+//         break;
 //     case 1:
 //         console.log("Segunda-feira");
 //         break;
@@ -32,7 +32,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Classificação de Notas:
+// CLASSIFICAÇÃO DE NOTAS:
 
 // Crie um programa que recebe uma nota de 0 a 100 e retorna a classificação conforme a faixa de notas: "A" para notas de 90 a 100, "B" para notas de 80 a 89, e assim por diante.
 
@@ -71,7 +71,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Desafio das Cores Primárias:
+// DESAFIO DAS CORES PRIMÁRIAS:
 
 // function verificarCorPrimaria(cor) {
 //     let mensagem;
@@ -100,7 +100,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Calculadora Simples:
+// CALCULADORA SIMPLES:
 
 // function calcularAritmeticos(valor1, operador, valor2) {
 //     let resultado;
@@ -135,7 +135,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Menu de Opções:
+// MENU DE OPÇÕES:
 
 // function menuOpcoes(opcao) {
 //     let mensagem = null
@@ -167,7 +167,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Tradução de Palavras:
+// TRADUÇÃO DE PALAVRAS:
 
 // function traduzirPalavras(palavra) {
 //     switch (palavra.toLowerCase()) {

@@ -1,4 +1,5 @@
-// // Exemplo de uma função assíncrona simulada que retorna uma Promise
+// // EXEMPLO DE UMA FUNÇÃO ASSÍNCRONA SIMULADA QUE RETORNA UMA PROMISE:
+
 // function exemploPromise() {
 //     return new Promise((resolve, reject) => {
 //         // Simulando uma operação assíncrona, como uma requisição HTTP
@@ -29,7 +30,6 @@
 // console.log('Operação assíncrona iniciada.'); // Executado antes da Promise ser resolvida
 
 // ----------------------------------------------------------------------------------------------------------------------
-
 
 // const minhaPromise = new Promise((resolve, reject) => {
 //     // Operação assíncrona
@@ -98,7 +98,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Exemplo 2 - Dados:
+// EXEMPLO 2 - DADOS:
 
 // const fs = require('fs');
 

@@ -1,6 +1,6 @@
-// Verificação de Paridade:
+// VERIFICAÇÃO DE PARIDADE:
 
-// function verificaParidade(num) {
+// function verificarParidade(num) {
 
 //     num % 2 === 0 ? console.log(`${num} é Par`) : console.log(`${num} é Ímpar`);
 // }
@@ -9,9 +9,9 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Verificação de Maioridade:
+// VERIFICAÇÃO DE MAIORIDADE:
 
-// function verificaMaiorIdade(idade) {
+// function verificarMaiorIdade(idade) {
 
 //     idade >= 18 ? console.log('Maior de idade') : console.log('Menor de idade');
 // }
@@ -20,9 +20,9 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-// Avaliação de Nota:
+// AVALIAÇÃO DE NOTA:
 
-// function verificaNota(nota) {
+// function verificarNota(nota) {
 
 //     nota >= 6 ? console.log('APROVADO') : console.log('REPROVADO');
 // }
